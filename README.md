@@ -32,3 +32,4 @@ This is an ECS implementation of AreaTrigger.
 1. Add the Area Trigger component to an Entity (preferably an Area Entity)
 2. In the ‘Attached Entities’ category at the top, use the Pick button to select the Areas you want to become a trigger 
 3. Open the Entity's FlowGraph and create the AreaTrigger node which can be found in ‘Entity > AreaTrigger’
+4. Right click the red area where it says **Choose Entity** and then click **Assign Graph Entity**
