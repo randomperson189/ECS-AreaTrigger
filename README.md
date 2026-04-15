@@ -1,7 +1,7 @@
 # ECS-AreaTrigger
 This is an ECS implementation of AreaTrigger.
 
-## How to install the plugin:
+## How to install the plugin to your project:
 
 1. Download the files in this repository (either by cloing or via zip download)
 2. Open the **bin** folder and then inside that, move the two folders called **win_x64** and **win_x64_release** into your CryEngine 5 project's **bin** folder (don't replace if prompted)
