@@ -24,7 +24,7 @@ This is an ECS implementation of AreaTrigger.
   "guid": "",
   "type": "EType::Native",
   "path": "bin/win_x64/ECSAreaTrigger.dll"
-},
+}
 ```
 
 ## How to use it in Sandbox:
