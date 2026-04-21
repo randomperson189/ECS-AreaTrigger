@@ -33,3 +33,15 @@ This is an ECS implementation of AreaTrigger.
 2. In the **Attached Entities** category at the top, use the Pick button to select the Areas you want to become a trigger 
 3. Open the Entity's FlowGraph and create the **AreaTrigger** node which can be found in **Entity > AreaTrigger**
 4. Right click the red area where it says **Choose Entity** and then click **Assign Graph Entity**
+
+## Fix for some entities not triggering areas
+
+CryEngine by default disables area triggering for certain entities, but there's an easy way to make it work in C++
+
+1. Find any custom made component you've attached to your entity (usually **CPlayerComponent**)
+2. Find the component's **Initialize** function
+3. Add this line to the bottom of the function
+```
+m_pEntity->SetFlags(m_pEntity->GetFlags() | ENTITY_FLAG_TRIGGER_AREAS);
+```
+4. Compile your code and your entity should now trigger areas
