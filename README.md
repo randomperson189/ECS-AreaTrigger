@@ -38,7 +38,7 @@ This is an ECS implementation of AreaTrigger.
 
 CryEngine by default disables area triggering for certain entities, but there's an easy way to make it work on any entity you want in C++
 
-1. Find any custom made component you've attached to your entity (usually **CPlayerComponent**)
+1. Find any custom made component you've attached to your entity (for example **CPlayerComponent**)
 2. Find the component's **Initialize** function
 3. Add this line to the bottom of the function
 ```
