@@ -26,7 +26,9 @@ add_sources("Components_uber.cpp"
     PROJECTS ECSAreaTrigger
     SOURCE_GROUP "Components"
 		"Components/AreaTrigger.cpp"
+		"Components/TriggerAreas.cpp"
 		"Components/AreaTrigger.h"
+		"Components/TriggerAreas.h"
 )
 add_sources("FlowNodes_uber.cpp"
     PROJECTS ECSAreaTrigger
