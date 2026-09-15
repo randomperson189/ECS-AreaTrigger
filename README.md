@@ -1,5 +1,5 @@
 # ECS-AreaTrigger
-This is an ECS implementation of AreaTrigger.
+This is an ECS implementation of AreaTrigger for CryEngine 5.
 
 ## How to install the plugin to your project:
 
