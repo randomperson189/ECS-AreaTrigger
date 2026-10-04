@@ -1,6 +1,8 @@
 # ECS-AreaTrigger
 This is an ECS implementation of AreaTrigger for CryEngine 5.
 
+<img width="1920" height="1030" alt="ECSAreaTriggerThumbnail" src="https://github.com/user-attachments/assets/f3ae5353-97b4-44ee-adeb-a3625a169ac8" />
+
 ## How to install the plugin to your project:
 
 1. Download the files in this repository (either by cloing or via zip download)
